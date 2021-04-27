@@ -1,4 +1,0 @@
-Name MI (Optional)
-Admin
-	for rpint of receipt
-	delete data
