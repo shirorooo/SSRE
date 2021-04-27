@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* ----------------------------------NAVBAR---------------------------------- */
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #95e9e1, #70c4bc);
+  padding: 0 !important;
+}
+
+.navbar img {
+  width: 30%;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  font-size: large;
+  font-weight: 500;
+}
+
+.navbar-nav li a p {
+  display: inline-block;
+}
+
+#nav-bar i {
+  font-size: 30px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/* ----------------------------------TABLE---------------------------------- */
+#table {
+  margin-top: 40px;
+}
+
+#table h1 {
+  margin-bottom: 80px;
+}
+
+#table .input-field .d-flex {
+  float: right;
+}
+
+#table .input-field .d-flex input {
+  display: block;
+  width: 200px;
+  padding-left: 10px;
+  border-radius: 40px;
+}
+
+#table .input-field .d-flex .btn {
+  padding-left: 10px;
+  border-radius: 40px;
+}
+
+#table table {
+  border: solid 1.5px;
+  border-radius: 20px !;
+}
+
+#table table td {
+  font-size: 100%;
+}
+
+#table #pagination .pagination .page-item a {
+  text-decoration: none;
+  color: black;
+}
+/* ----------------------------------CONTACT US---------------------------------- */
+#contact {
+  margin-top: 25%;
+  background: #d4d4d5;
+  padding: 10px 0px;
+}
+
+#contact p {
+  font-size: 9px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}

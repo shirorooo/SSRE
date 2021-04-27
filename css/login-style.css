@@ -1,0 +1,73 @@
+.container {
+  margin-top: 200px;
+  position: relative;
+  width: 100%;
+}
+
+.login-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border-radius: 30px;
+  height: 500px;
+  -webkit-box-shadow: -1px 1px 8px 5px rgba(0, 0, 0, 0.27);
+  box-shadow: -1px 1px 8px 5px rgba(0, 0, 0, 0.27);
+  background-image: linear-gradient(to top, #95e9e1, #ffffff);
+}
+
+.login-form h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Geneva, Tahoma,
+    sans-serif;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #444;
+}
+
+.input-field {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  margin: 20px;
+  height: 60px;
+  background-color: rgba(233, 220, 220, 0.904);
+  border-radius: 55px;
+  margin-bottom: 30px;
+}
+
+.credentials {
+  background: none;
+  outline: none;
+  border: none;
+  margin: 5px;
+  width: 90%;
+  color: rgb(103, 103, 103);
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+.credentials::placeholder {
+  color: rgb(103, 103, 103);
+  font-weight: 600;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: rgb(103, 103, 103);
+  font-size: 1.1rem;
+}
+
+.login-form .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 200px;
+  border-radius: 55px;
+  font-weight: 600;
+}
